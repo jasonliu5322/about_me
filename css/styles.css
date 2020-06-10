@@ -16,13 +16,10 @@ div{
     
 }
 
-.clearfix::after{
-    clear:both;
-}
 
 header{
     height: 100px;
-    width: 100%;
+    width: 99%;
     background-image: url(https://cdn.pixabay.com/photo/2016/08/30/16/27/banner-1631301_960_720.jpg);
     background-size: 100%;;
 }
