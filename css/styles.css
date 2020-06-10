@@ -4,6 +4,15 @@ body{
    background-image: url(https://images.pexels.com/photos/673648/pexels-photo-673648.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
 }
 
+div{
+    display: block;
+    width:1500px;
+    height:1000px;
+    position: relative;
+    left:200px;
+    
+}
+
 header{
     height: 100px;
     width: 100%;
@@ -23,8 +32,8 @@ h1{
 
 section{
     width: 80%;
-    height: 350px;
-    /*border: 2px solid #23bd2a;*/
+    height: 380px;
+   /* border: 2px solid #23bd2a;*/
     margin-bottom: 30px;
     margin-top: 20px;
 }
@@ -32,7 +41,7 @@ section{
 figure{
     float: left;
     width: 600px;
-    height: 350px;
+    height: 360px;
     padding: 0px;
     margin: 5px;
     /*border: 1px solid #af3030;*/
@@ -53,10 +62,10 @@ img{
 aside{
     /*border: 1px solid blueviolet;*/
     width:200px;
-    height:750px;
-    position:fixed;
+    height:800px;
+    position :fixed;
     top:130px;
-    left:1350px;
+    left:1500px;
     background-color: lightcoral;
 
 }
