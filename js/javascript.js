@@ -1,6 +1,6 @@
 'use strict';
 
-alert('Thanks for reading my stories, please answer four quesions at the end.')
+alert('Thanks for reading my stories, please answer four quesions at the end.');
 var credit = 0;
 function myFunction1() {
     var place = prompt('Where did us visited during my first propeller fly?');
@@ -9,7 +9,7 @@ function myFunction1() {
         return;
     }
     while (newplace !== 'downtown sf') {
-        alert('You are wrong, answer this qesiton again!');
+        alert('You are wrong, answer this question again or click cancel to quit!');
         place = prompt('Where did us visited during my first propeller fly?');
         newplace = place.toLowerCase();
         if(place === null){
@@ -21,13 +21,13 @@ function myFunction1() {
 }
 
 function myFunction2() {
-    var age = prompt('How old is Stacy now?');
+    var age = prompt('How old is Stacey now?');
     if(age === null){
         return;
     }
     while (age !== '2') {
-        alert('You are wrong, answer this qesiton again!');
-        age = prompt('How old is Stacy now?');
+        alert('You are wrong, answer this question again or click cancel to quit!');
+        age = prompt('How old is Stacey now?');
         if(age === null){
             return;
         }
@@ -43,7 +43,7 @@ function myFunction3() {
         return;
     }
     while (newSpecialty !== 'drawing') {
-        alert('You are wrong, answer this qesiton again!');
+        alert('You are wrong, answer this question again or click cancel to quit!');
         specialty= prompt('What is Jelissa good at?');
         newSpecialty = specialty.toLowerCase();
         if(specialty === null){
@@ -60,7 +60,7 @@ function myFunction4() {
         return;
     }
     while (age !== '18') {
-        alert('You are wrong, answer this qesiton again!');
+        alert('You are wrong, answer this question again or click cancel to quit!');
         age= prompt('When Jelissa is 25 years old, how old is Stacy?');
         if(age === null){
             return;

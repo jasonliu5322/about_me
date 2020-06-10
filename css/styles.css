@@ -1,7 +1,9 @@
 
 body{
    background-color: antiquewhite; 
-   background-image: url(https://images.pexels.com/photos/673648/pexels-photo-673648.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+   background-image: url(https://images.unsplash.com/photo-1474540412665-1cdae210ae6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1362&q=80);
+   background-size: 100%;
+   background-repeat:no-repeat;
 }
 
 div{
@@ -10,14 +12,19 @@ div{
     height:1000px;
     position: relative;
     left:200px;
+    /*border: 2px solid green;*/
     
+}
+
+.clearfix::after{
+    clear:both;
 }
 
 header{
     height: 100px;
     width: 100%;
-    background-image: url(https://cdn.pixabay.com/photo/2016/08/05/09/31/banner-1571858_960_720.jpg);
-    margin-top: 0px;
+    background-image: url(https://cdn.pixabay.com/photo/2016/08/30/16/27/banner-1631301_960_720.jpg);
+    background-size: 100%;;
 }
 
 h1{
@@ -33,9 +40,10 @@ h1{
 section{
     width: 80%;
     height: 380px;
-   /* border: 2px solid #23bd2a;*/
+    /*border: 2px solid #23bd2a;*/
     margin-bottom: 30px;
     margin-top: 20px;
+    float:left;
 }
 
 figure{
@@ -61,12 +69,16 @@ img{
 
 aside{
     /*border: 1px solid blueviolet;*/
-    width:200px;
-    height:800px;
-    position :fixed;
+    width:230px;
+    height:380px;
+   /* position :fixed;
     top:130px;
-    left:1500px;
+    left:1500px;*/
     background-color: lightcoral;
+    float:left;
+    margin:10px;
+    margin-left:50px;
+   
 
 }
 
