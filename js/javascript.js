@@ -80,8 +80,58 @@ function myFunction5(){
 }
 
 function myFunction6(){
-    alert('This is a guessing number game, please input a number which you think is my favorite number.');
-    var Mynumber = prompt('Input a number.');
+    alert('This is a guessing number game, please input a number which you think is my favorite number between 1 to 10. You only have four times to guess.');
+    var round = 0;
+    do{
+        var myNumber = prompt('Input a number or click cancel to quit!.');
+        if(myNumber === null)
+            return;
+        if(myNumber < 7){
+            alert('Your number is too low.');
+        }
+        else if(myNumber > 7){
+            alert('Your number is too high.');
+        }
+        else{
+            alert('congratulaitons! You got the my favorite number which is 7!');
+            return;
+        }
+        round++;
+    }while(round < 4);
+    alert('You have already guessed four times, my favorite number is 7!');
+}
+
+function myFunction7(){
+    alert('Please guess my favorite fruits, there are multiple possible correct answers. You only have three times to guess.');
+    var round = 0;
+    var msg = '';
+    var el = document.getElementById('myFruit');
+    var myFruit = ['banana', 'blueberry'];
+    while(round < 3){
+        var fruitName = prompt('Input name of fruit or click cancle to quit.');
+        if(fruitName === null)
+            return;
+        fruitName = fruitName.toLowerCase();
+        for(var i = 0; i < myFruit.length; i++){
+            if(fruitName === myFruit[i]){
+                alert('Congratulations! You got the correct fruit name!');
+                for(i = 0; i < myFruit.length; i++){
+                    msg += myFruit[i] + ' ' ;
+                }
+                msg = 'My favorite fruits are: ' + msg;
+                el.innerHTML = msg;
+                return;
+            }
+        }
+        alert('Your answer is wrong.');
+        round++;
+    }
+    alert('You have already guessed three times, you are failed.');
+    for(i = 0; i < myFruit.length; i++){
+        msg += myFruit[i] + ' ' ;
+    }
+    msg = 'My favorite fruits are: ' + msg;
+    el.innerHTML = msg;
 }
 
 
