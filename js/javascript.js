@@ -79,4 +79,9 @@ function myFunction5(){
     credit = 0;
 }
 
+function myFunction6(){
+    alert('This is a guessing number game, please input a number which you think is my favorite number.');
+    var Mynumber = prompt('Input a number.');
+}
+
 

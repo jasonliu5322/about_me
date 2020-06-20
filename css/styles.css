@@ -3,7 +3,7 @@ body{
    background-color: antiquewhite; 
    background-image: url(https://images.unsplash.com/photo-1474540412665-1cdae210ae6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1362&q=80);
    background-size: 100%;
-   background-repeat:no-repeat;
+   background-repeat:repeat-y;
 }
 
 div{
@@ -81,16 +81,11 @@ aside{
 
 nav{
     font-size: larger;
-
     word-spacing: 40px;
 }
 
 a{
-    color: forestgreen;
-}
-
-h3{
-    color: rgb(4, 0, 255);
+    color: green;
 }
 
 h2, h3{
@@ -98,6 +93,41 @@ h2, h3{
     color: rgb(4, 0, 255);
 }
 
+h4{
+    color: blue;
+    font-size: larger;
+    margin-top: 0px;
+}
+
 figcaption{
     color:red;
+}
+
+#visit{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    color:green;
+    height:290px;
+    margin-bottom: 0px;
+
+}
+
+#firstroot{
+    background-image: url(https://cdn.pixabay.com/photo/2017/01/31/08/35/animal-2023272_960_720.png) ;
+    /*border: 2px solid gray;*/
+    width: 1500px;
+    height:200px;
+    left:0;
+    float:left;
+    margin-bottom: 30px;
+}
+
+#education{
+    color:purple;
+    margin-bottom: 50px;;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#guessingnumber{
+    color: purple;
 }
