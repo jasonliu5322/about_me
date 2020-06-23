@@ -2,7 +2,7 @@
 
 alert('Thanks for reading my stories, please answer four quesions at the end.');
 var credit = 0;
-function myFunction1() {
+function visitedPlace() {
     var place = prompt('Where did us visited during my first propeller fly?');
     var newplace = place.toLowerCase();
     if(place === null){
@@ -20,7 +20,7 @@ function myFunction1() {
     credit++;
 }
 
-function myFunction2() {
+function staceyAge() {
     var age = prompt('How old is Stacey now?');
     if(age === null){
         return;
@@ -36,7 +36,7 @@ function myFunction2() {
     credit++;
 }
 
-function myFunction3() {
+function Jelissa() {
     var specialty= prompt('What is Jelissa good at?');
     var newSpecialty = specialty.toLowerCase();
     if(specialty === null){
@@ -54,7 +54,7 @@ function myFunction3() {
     credit++;
 }
 
-function myFunction4() {
+function ageComparison() {
     var age= prompt('When Jelissa is 25 years old, how old is Stacy?');
     if(age === null){
         return;
@@ -70,7 +70,7 @@ function myFunction4() {
     credit++;
 }
 
-function myFunction5(){
+function displayScore(){
     var userName = prompt('What is your name?');
     if(userName === null){
         return;
@@ -79,7 +79,7 @@ function myFunction5(){
     credit = 0;
 }
 
-function myFunction6(){
+function guessNumber(){
     alert('This is a guessing number game, please input a number which you think is my favorite number between 1 to 10. You only have four times to guess.');
     var round = 0;
     do{
@@ -101,7 +101,7 @@ function myFunction6(){
     alert('You have already guessed four times, my favorite number is 7!');
 }
 
-function myFunction7(){
+function guessFruit(){
     alert('Please guess my favorite fruits, there are multiple possible correct answers. You only have three times to guess.');
     var round = 0;
     var msg = '';
